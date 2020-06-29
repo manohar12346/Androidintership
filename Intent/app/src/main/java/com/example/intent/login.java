@@ -14,7 +14,7 @@ public class login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         txt=(TextView) findViewById(R.id.textView);
         String nam= getIntent().getStringExtra("manu");
-        txt.setText("Welcome"+nam);
+        txt.setText("Welcome to home"+nam);
 
     }
 }
